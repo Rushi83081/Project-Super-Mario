@@ -89,7 +89,7 @@ kubectl version --client
 ### $\color{red} \textbf {Step 5 → Building Infrastructure  Using  terraform}$
 $\color{blue} \textbf {Install  GIT}$
 ````
-git clone https://github.com/abhipraydhoble/Project-Super-Mario.git
+git clone https://github.com/Rushi83081/Project-Super-Mario.git
 ````
 ````
 cd Project-Super-Mario
@@ -108,7 +108,7 @@ terraform apply --auto-approve
 ````
 
 ````
-aws eks update-kubeconfig --name EKS_CLOUD --region ap-southeast-1 --profile eks
+aws eks update-kubeconfig --name EKS_CLOUD --region ap-southeast-1 
 ````
 
 ### $\color{red} \textbf {Step 6 → Creation  of  deployment  and service  for  EKS}$
